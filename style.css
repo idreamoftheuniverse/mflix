@@ -1,0 +1,22 @@
+.overlay-image
+{
+    height: 400px;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-container
+{
+    position: absolute;
+    margin-top:-170px;
+    margin-left: 10%;
+    padding-bottom: 50px;
+}
+
+.card-img-top
+{
+    opacity:0.5;
+}
+
+
