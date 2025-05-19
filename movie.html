@@ -1,41 +1,357 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
   <head>
-    <title>MMBFLIX</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      <title>MMBFLIX</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="style.css">
+      
+      <!-- Bootstrap CSS Link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- Bootstrap JavaScript Link -->    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      
+     <!-- Bootstrap icons CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      
+      
+        
   </head>
-  <body class="bg-dark text-light">
-    <!------------------------ Navbar ------------------------>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="color:red"><b>MMBFLIX</b></a>
-        <button
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#mobile-nav-items"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mobile-nav-items">
-          <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link" href="music.html">Music</a>
-            <a class="nav-link" href="movie.html">Movies</a>
-            <a class="nav-link" href="books.html">Books</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!------------------------ Navbar ends ------------------------>
-    <div class="container-fluid" style="margin-top:50px;">
-      <h1>Welcome to movie page</h1>
-    </div>
-  </body>
+<body class="bg-dark">
+
+<!-- ----------------------Navbar ---------------------- -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #212529">
+
+     <div class="container-fluid">
+         <a class="navbar-brand" href="#" style="color:red"><b>MMBFLIX</b></a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="music.html">Music</a>
+                <a class="nav-link" href="movie.html">Movies</a>
+                <a class="nav-link" href="books.html">Books</a>
+              </div>
+         </div>
+     </div>
+ </nav>
+<div style="margin-bottom:60px;"></div>
+<!-- ----------------------Navbar ends---------------------- -->
+      
+      
+<!---------------------- Movies ----------------------->
+<div class="container-fluid" id="movie"> 
+    
+    <iframe width="100%" height="340" src="https://procodingclass.github.io/tynker-assets/videos/movie8.mp4" name="moviePlayer"></iframe>
+    
+     <div class="row g-3">
+         <!-- First movie card -->
+        <!-- Add an appropriate class to the following div such that the div covers 33% of the screen -->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie1.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie1.png" class="card-img-top" > 
+                    
+                    <div class="card-img-overlay text-center">
+                        <!-- Add btn-warning class on below button -->    
+                        <button class="btn-warning">
+                            <!-- Add play icon using i tag and an appropriate class -->
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <!-- Add an appropriate class to the following div such that the movie content has some padding around it -->
+                    <div class="card-body bg-gradient text-white">
+                        <h5 class="text-warning">Jungle Safari 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Adventure | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: It is the story of an enthusiastic young adventurer who follows his dreams into the Amazon jungle and how he uses modern-day science to survive.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+         
+      <!-- Second movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie2.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie2.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-gradient text-white">
+                        <h5 class="text-warning">Exploration 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-half"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sci-fi | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: This is a tale of survival of some aliens who leave their planet in search of a new home and crash land on Earth, and the obstacles they face as they try to settle in an unfamiliar planet.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+    <!-- Third movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie3.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie3.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-gradient text-white">
+                        <h5 class="text-warning">James the Jockey 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sports | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: This is the story of James, who unaware of what to do with his life accidentally came across the derby race, fell in love with it, and defeated all odds to become the greatest jockey of all time.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+
+    <!-- Fourth movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie4.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie4.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-gradient text-white">
+                        <h5 class="text-warning">Type VI Civilization 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sci-fi | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: The plot revolves around how the human race has advanced technologically to the point where it can change human genetics into any kind of mechanical object and manipulate time by bending the laws of nature.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+    <!-- Fifth movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie5.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie5.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-gradient text-white">
+                        <h5 class="text-warning">Tech a boon? 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sci-fi | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: The story revolves around a group of scientists who risk their lives to fix a faulty defence robot experiment that is destructing the city.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+    <!-- Sixth movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie6.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie6.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark bg-gradient text-white">
+                        <h5 class="text-warning">Back to Space 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-half"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sci-fi | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: Back to Space is a story that revolves around the life of a scientist whose dream is to establish a human space centre in space and how she overcomes numerous economical and political challenges, back in 80's.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+         
+    <!-- Seventh movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie7.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie7.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark bg-gradient text-white">
+                        <h5 class="text-warning">The City of Lights 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-half"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Mystery | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: This is the story of a man who arrives in the "city of dreams," and as time passes, the real truth about the city unfolds.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+         
+    <!-- Eighth movie card-->
+        <div class="col-md-4">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie8.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0 bg-dark">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie8.png" class="card-img-top"> 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-warning">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-gradient text-white">
+                        <h5 class="text-warning">Second Innings 
+                            <span class="badge bg-warning">New</span>  
+                            <div class="text-danger">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-half"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Drama | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: The story revolve around how two old couple moves to a new place and start building everything from scratch. They enjoy each other's company and experience more of life than they ever imagined.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+         
+     </div>
+</div> 
+
+ 
+
+</body>
 </html>
